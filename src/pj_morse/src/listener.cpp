@@ -9,7 +9,8 @@ void morseCallback(const pj_morse::morse::ConstPtr &msg1)//constptr-常指针类
     ROS_INFO("Listener:code = %s",morse.c_str());
 }
 int main(int argc, char *argv[])
-{
+{    
+    //gg
     ros::init(argc, argv, "listener");
     ros::NodeHandle nh;
     ros::Subscriber sub = nh.subscribe("morse", 100, morseCallback);//创建sub,回调函数-指针
