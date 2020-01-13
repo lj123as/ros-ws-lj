@@ -38,10 +38,11 @@
 #define DEFAULT_BG_R 0x45
 #define DEFAULT_BG_G 0x56
 #define DEFAULT_BG_B 0xff
+#define test
 
 namespace turtlesim
 {
-
+//test
 // TurtleFrame(QWidget* parent = 0, Qt::WindowFlags f = 0); 表明TurtleFrame是一个窗口
 TurtleFrame::TurtleFrame(QWidget* parent, Qt::WindowFlags f)
 : QFrame(parent, f) // QFrame 窗口初始化
