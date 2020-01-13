@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="gps_pro"   pkg="serial_gps"  type="gps_pro" output="screen">
+	  <param name="serial_port"         type="string"  value="/dev/ttyUSB0"/>
+	  <param name="serial_baudrate"     type="int"     value="115200"/>
+  </node>
+
+</launch>

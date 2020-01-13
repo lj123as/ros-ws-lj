@@ -1,0 +1,8 @@
+prefix=/home/lj/catkin_ws/install
+
+Name: pj1_MorseCode
+Description: Description of pj1_MorseCode
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lj/catkin_ws/install/lib 
+Requires: 

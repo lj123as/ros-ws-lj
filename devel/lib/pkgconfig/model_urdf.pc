@@ -1,0 +1,8 @@
+prefix=/home/lj/catkin_ws/devel
+
+Name: model_urdf
+Description: Description of model_urdf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lj/catkin_ws/devel/lib 
+Requires: 

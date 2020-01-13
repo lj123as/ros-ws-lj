@@ -1,0 +1,2 @@
+set(rospy_tutorials_MESSAGE_FILES "/home/lj/catkin_ws/src/ros_tutorials-kinetic-devel/rospy_tutorials/msg/Floats.msg;/home/lj/catkin_ws/src/ros_tutorials-kinetic-devel/rospy_tutorials/msg/HeaderString.msg")
+set(rospy_tutorials_SERVICE_FILES "/home/lj/catkin_ws/src/ros_tutorials-kinetic-devel/rospy_tutorials/srv/AddTwoInts.srv;/home/lj/catkin_ws/src/ros_tutorials-kinetic-devel/rospy_tutorials/srv/BadTwoInts.srv")

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: model_urdf
+Description: Description of model_urdf
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

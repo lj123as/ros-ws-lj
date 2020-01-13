@@ -1,0 +1,101 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug DCATKIN_DEVEL_PREFIX:PATH=/home/lj/catkin_ws/devel -G "CodeBlocks - Unix Makefiles" /home/lj/catkin_ws/src
+-- Using CATKIN_DEVEL_PREFIX: /home/lj/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/lj/ws_plotjuggler/devel;/home/lj/catkin_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/lj/ws_plotjuggler/devel;/home/lj/catkin_ws/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/lj/catkin_ws/build/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 18 packages in topological order:
+-- ~~  - rosserial (metapackage)
+-- ~~  - rosserial_arduino
+-- ~~  - rosserial_mbed
+-- ~~  - rosserial_msgs
+-- ~~  - rosserial_python
+-- ~~  - rosserial_tivac
+-- ~~  - rosserial_vex_cortex
+-- ~~  - rosserial_vex_v5
+-- ~~  - rosserial_xbee
+-- ~~  - rosserial_client
+-- ~~  - pj_morse
+-- ~~  - serial_gps
+-- ~~  - rosserial_server
+-- ~~  - rosserial_embeddedlinux
+-- ~~  - rosserial_test
+-- ~~  - rosserial_windows
+-- ~~  - turtlesim
+-- ~~  - learning_tf
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin metapackage: 'rosserial'
+-- ==> add_subdirectory(rosserial/rosserial)
+-- +++ processing catkin package: 'rosserial_arduino'
+-- ==> add_subdirectory(rosserial/rosserial_arduino)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- rosserial_arduino: 1 messages, 1 services
+-- +++ processing catkin package: 'rosserial_mbed'
+-- ==> add_subdirectory(rosserial/rosserial_mbed)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- rosserial_mbed: 1 messages, 1 services
+-- +++ processing catkin package: 'rosserial_msgs'
+-- ==> add_subdirectory(rosserial/rosserial_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- rosserial_msgs: 2 messages, 3 services
+-- +++ processing catkin package: 'rosserial_python'
+-- ==> add_subdirectory(rosserial/rosserial_python)
+-- +++ processing catkin package: 'rosserial_tivac'
+-- ==> add_subdirectory(rosserial/rosserial_tivac)
+-- +++ processing catkin package: 'rosserial_vex_cortex'
+-- ==> add_subdirectory(rosserial/rosserial_vex_cortex)
+-- +++ processing catkin package: 'rosserial_vex_v5'
+-- ==> add_subdirectory(rosserial/rosserial_vex_v5)
+-- +++ processing catkin package: 'rosserial_xbee'
+-- ==> add_subdirectory(rosserial/rosserial_xbee)
+-- +++ processing catkin package: 'rosserial_client'
+-- ==> add_subdirectory(rosserial/rosserial_client)
+-- +++ processing catkin package: 'pj_morse'
+-- ==> add_subdirectory(pj_morse)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- pj_morse: 1 messages, 1 services
+-- +++ processing catkin package: 'serial_gps'
+-- ==> add_subdirectory(serial_gps)
+-- +++ processing catkin package: 'rosserial_server'
+-- ==> add_subdirectory(rosserial/rosserial_server)
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   chrono
+--   date_time
+--   atomic
+-- +++ processing catkin package: 'rosserial_embeddedlinux'
+-- ==> add_subdirectory(rosserial/rosserial_embeddedlinux)
+-- +++ processing catkin package: 'rosserial_test'
+-- ==> add_subdirectory(rosserial/rosserial_test)
+-- +++ processing catkin package: 'rosserial_windows'
+-- ==> add_subdirectory(rosserial/rosserial_windows)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'turtlesim'
+-- ==> add_subdirectory(turtlesim)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   thread
+--   chrono
+--   system
+--   date_time
+--   atomic
+-- turtlesim: 2 messages, 5 services
+-- +++ processing catkin package: 'learning_tf'
+-- ==> add_subdirectory(learning_tf)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lj/catkin_ws/build

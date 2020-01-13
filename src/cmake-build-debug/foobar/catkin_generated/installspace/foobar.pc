@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: foobar
+Description: Description of foobar
+Version: 1.2.4
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

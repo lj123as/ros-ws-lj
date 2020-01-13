@@ -1,0 +1,8 @@
+prefix=/home/lj/catkin_ws/install
+
+Name: serial_gps
+Description: Description of serial_gps
+Version: 0.0.0
+Cflags: -I/home/lj/catkin_ws/install/include
+Libs: -L/home/lj/catkin_ws/install/lib 
+Requires: 
